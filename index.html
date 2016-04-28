@@ -5,7 +5,7 @@
 	<title>Bootstrap: Grid System</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
-
+  <link rel="stylesheet" href="css/font-awesome.min.css">
     <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
     <!-- ADVERTENCIA: Respond.js no soporta que ejecutes tu código via file:// -->
     <!--[if lt IE 9]>
@@ -15,134 +15,175 @@
 </head>
 <body>
   <header>
-    <h1>Site name</h1>
-    <nav class="head">
-      <ul>
-        <li>
-          <i class="fa fa-newspaper-o" aria-hidden="true"></i>
-          <a href="#">Noticias</a>
-        </li>
-        <li>
-          <i class="fa fa-newspaper-o" aria-hidden="true"></i>
-          <a href="#">Enlaces RSS</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <h1>Site name</h1>
+        </div>
+        <div class="col-md-offset-6 col-md-3">
+          <nav class="head">
+            <ul class="list-inline">
+              <li>
+                <i class="glyphicon glyphicon-home"></i> 
+                <a href="#">Noticias</a>
+              </li>
+              <li>
+                <i class="glyphicon glyphicon-home"></i> 
+                <a href="#">Enlaces RSS</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
   </header>
-  <nav>
-    <ul>
-      <li>
-        <a href="#">Bienvenido</a>
-      </li>
-      <li>
-        <a href="#">Actaulidades</a>
-      </li>
-      <li>
-        <a href="#">En directo</a>
-      </li>
-      <li>
-        <a href="#">Reporte financiero</a>
-      </li>
-      <li>
-        <a href="#">Nuestra oferta</a>
-      </li>
-      <li>
-        <a href="#">De nosotros a usted</a>
-      </li>
-    </ul>
-  </nav>
+  <div class="menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav>
+            <ul class="nav nav-tabs">
+              <li role="presentation">
+                <a href="#">Bienvenido</a>
+              </li>
+              <li role="presentation">
+                <a href="#">Actaulidades</a>
+              </li>
+              <li role="presentation">
+                <a href="#">En directo</a>
+              </li>
+              <li role="presentation">
+                <a href="#">Reporte financiero</a>
+              </li>
+              <li role="presentation">
+                <a href="#">Nuestra oferta</a>
+              </li>
+              <li role="presentation">
+                <a href="#">De nosotros a usted</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
   <section>
-    <div class="etiqueta-historia">Historia destacada</div>
-    <p class="publicado"><b>Artículo - </b>publicado el 09/10/15</p>
-    <h3>Lorem ipsum dolor sit amet</h3>
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum non a autem quod dignissimos odit sit error. Enim suscipit itaque vero veniam, laudantium eius incidunt ab neque. Sapiente sit, similique?</p>
-    <h4 class="ver">Ver más...</h4>
-    <h4 class="etiquetas">Etiquetas: <span>loren ipsum diligat</span></h4>
-    <hr>
-    <div class="etiqueta-web">Webzone</div>
-    <p class="publicado"><b>Preguntas - </b>publicado el 09/10/15</p>
-    <h3>Lorem ipsum dolor sit amet</h3>
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum non a autem quod dignissimos odit sit error. Enim suscipit itaque vero veniam, laudantium eius incidunt ab neque. Sapiente sit, similique?</p>
-    <h4 class="ver">Ver más...</h4>
-    <h4 class="etiquetas">Etiquetas: <span>loren ipsum diligat</span></h4>
-    <hr>
-    <p class="publicado"><b>Artículo - </b>publicado el 09/10/15</p>
-    <h3>Lorem ipsum et suspira nostres</h3>
-    <div class="foto">FOTO</div>
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum non a autem quod dignissimos odit sit error. Enim suscipit itaque vero veniam, laudantium eius incidunt ab neque. Sapiente sit, similique?</p>
-    <h4 class="ver">Ver más...</h4>
-    <h4 class="etiquetas">Etiquetas: <span>loren ipsum diligat</span></h4>
-    <hr>
-    <h3>Lorem ipsum et suspira nostres</h3>
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum non a autem quod dignissimos odit sit error. Enim suscipit itaque vero veniam, laudantium eius incidunt ab neque. Sapiente sit, similique?</p>
-    <h4 class="ver">Ver más...</h4>
-    <h4 class="etiquetas">Etiquetas: <span>loren ipsum diligat</span></h4>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <h3><span class="label label-default">Historia destacada</span></h3>
+          <p class="publicado"><b>Artículo - </b>publicado el 09/10/15</p>
+          <h3>Lorem ipsum dolor sit amet</h3>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum non a autem quod dignissimos odit sit error. Enim suscipit itaque vero veniam, laudantium eius incidunt ab neque. Sapiente sit, similique?</p>
+          <i class="glyphicon glyphicon-bookmark"></i> 
+          <h4 class="ver">Ver más...</h4>
+          <h4 class="etiquetas">Etiquetas: <span>loren ipsum diligat</span></h4>
+          <hr>
+          <span class="label label-default">Webzone</span>
+          <p class="publicado"><b>Preguntas - </b>publicado el 09/10/15</p>
+          <h3>Lorem ipsum dolor sit amet</h3>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum non a autem quod dignissimos odit sit error. Enim suscipit itaque vero veniam, laudantium eius incidunt ab neque. Sapiente sit, similique?</p>
+          <i class="glyphicon glyphicon-bookmark"></i> 
+          <h4 class="ver">Ver más...</h4>
+          <h4 class="etiquetas">Etiquetas: <span>loren ipsum diligat</span></h4>
+          <hr>
+          <p class="publicado"><b>Artículo - </b>publicado el 09/10/15</p>
+          <h3>Lorem ipsum et suspira nostres</h3>
+          <div class="foto">FOTO</div> 
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum non a autem quod dignissimos odit sit error. Enim suscipit itaque vero veniam, laudantium eius incidunt ab neque. Sapiente sit, similique?</p>
+          <i class="glyphicon glyphicon-bookmark"></i> 
+          <h4 class="ver">Ver más...</h4>
+          <h4 class="etiquetas">Etiquetas: <span>loren ipsum diligat</span></h4>
+          <hr>
+          <h3>Lorem ipsum et suspira nostres</h3>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum non a autem quod dignissimos odit sit error. Enim suscipit itaque vero veniam, laudantium eius incidunt ab neque. Sapiente sit, similique?</p>
+          <i class="glyphicon glyphicon-bookmark"></i>  
+          <h4 class="ver">Ver más...</h4>
+          <h4 class="etiquetas">Etiquetas: <span>loren ipsum diligat</span></h4>
+        </div>
+        <div class="col-md-3">
+           <aside>
+            <div class="video">
+              <h3><span class="label label-default">Historia destacada</span></h3>
+              <iframe src="#" frameborder="0"></iframe>
+              <h3>Claire Dupond</h3>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum non a autem quod dignissimos odit sit error. Enim suscipit itaque vero veniam, laudantium eius incidunt ab neque. Sapiente sit, similique?</p>
+              <p class="publicado">publicado el 09/10/15</p>
+              <i class="glyphicon glyphicon-bookmark"></i> 
+              <h4 class="ver">Ver más...</h4>
+            </div>
+            <div class="agenda">
+              <h3><span class="label label-default">Agenda</span></h3>
+              <div class="fecha">23 Enero</div>
+              <h3>Lorem ipsum et diligat</h3>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                De 23 a 28 Diciembre 2015</p>
+              <div class="fecha">23 Enero</div>
+              <h3>Lorem ipsum et diligat</h3>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                De 23 a 28 Diciembre 2015</p>
+              <div class="fecha">23 Enero</div>
+              <h3>Lorem ipsum et diligat</h3>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                De 23 a 28 Diciembre 2015</p>
+              <div class="fecha">23 Enero</div>
+              <h3>Lorem ipsum et diligat</h3>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                De 23 a 28 Diciembre 2015</p>
+            </div>
+            <hr>
+            <h2>Más información</h2>
+            <p class="top">Localidades</p>
+            <h3>Lorem ipsum et diligat</h3>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+             <p class="top">Hospimedia</p>
+            <h3>Lorem ipsum et diligat</h3>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </aside>
+        </div>
+      </div>
+    </div>
   </section>
-  <aside>
-    <div class="video">
-      <div class="etiqueta-historia">Historia destacada</div>
-      <iframe src="#" frameborder="0"></iframe>
-      <h3>Claire Dupond</h3>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum non a autem quod dignissimos odit sit error. Enim suscipit itaque vero veniam, laudantium eius incidunt ab neque. Sapiente sit, similique?</p>
-      <p class="publicado">publicado el 09/10/15</p>
-      <h4 class="ver">Ver más...</h4>
-    </div>
-    <div class="agenda">
-      <div class="etiqueta-agenda">Agenda</div>
-      <div class="fecha">23 Enero</div>
-      <h3>Lorem ipsum et diligat</h3>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        De 23 a 28 Diciembre 2015</p>
-      <div class="fecha">23 Enero</div>
-      <h3>Lorem ipsum et diligat</h3>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        De 23 a 28 Diciembre 2015</p>
-      <div class="fecha">23 Enero</div>
-      <h3>Lorem ipsum et diligat</h3>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        De 23 a 28 Diciembre 2015</p>
-      <div class="fecha">23 Enero</div>
-      <h3>Lorem ipsum et diligat</h3>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        De 23 a 28 Diciembre 2015</p>
-    </div>
-    <hr>
-    <h2>Más información</h2>
-    <p class="top">Localidades</p>
-    <h3>Lorem ipsum et diligat</h3>
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-     <p class="top">Hospimedia</p>
-    <h3>Lorem ipsum et diligat</h3>
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-  </aside>
   <hr class="big">
   <footer>
-    <h3>Rubros</h3>
-    <ul>
-      <li><a href="#">Actualidades</a></li>
-      <li><a href="#">En directo</a></li>
-      <li><a href="#">Reporte financiero</a></li>
-      <li><a href="#">Nuestra oferta</a></li>
-      <li><a href="#">De Nosotros a ustedes</a></li>
-    </ul>
-    <h3>Suscripción</h3>
-    <ul>
-      <li><a href="#">Todo el flujo</a></li>
-      <li><a href="#">Flujo RSS para expertos</a></li>
-      <li><a href="#">Noticias</a></li>
-    </ul>
-    <h3>Nosotros</h3>
-    <ul>
-      <li><a href="#">¿Quienes somos?</a></li>
-      <li><a href="#">Plan del sitio</a></li>
-      <li><a href="#">Información legal</a></li>
-    </ul>
-    <h3>Contacto</h3>
-    <ul>
-      <li><a href="#">Contáctanos</a></li>
-      <li><a href="#">FAQ</a></li>
-      <li><a href="#">Haga sus preguntas</a></li>
-    </ul>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h3>Rubros</h3>
+          <ul>
+            <li><a href="#">Actualidades</a></li>
+            <li><a href="#">En directo</a></li>
+            <li><a href="#">Reporte financiero</a></li>
+            <li><a href="#">Nuestra oferta</a></li>
+            <li><a href="#">De Nosotros a ustedes</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h3>Suscripción</h3>
+          <ul>
+            <li><a href="#">Todo el flujo</a></li>
+            <li><a href="#">Flujo RSS para expertos</a></li>
+            <li><a href="#">Noticias</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h3>Nosotros</h3>
+          <ul>
+            <li><a href="#">¿Quienes somos?</a></li>
+            <li><a href="#">Plan del sitio</a></li>
+            <li><a href="#">Información legal</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h3>Contacto</h3>
+          <ul>
+            <li><a href="#">Contáctanos</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Haga sus preguntas</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </footer>
 
 
