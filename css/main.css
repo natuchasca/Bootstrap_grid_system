@@ -1,9 +1,94 @@
 /* Header */
 
-p.lead {
-	font-size: 14px;
+header {
+	padding-top: 10px;
 }
 
+.menu {
+	background-color: #BEBEBE;
+	padding-top: 40px;
+	padding-left: 10px;
+}
+
+
+a {
+	color: black;
+}
+
+.links-top {
+	padding-top: 35px;
+}
+
+.links-top li {
+	margin-left: 20px;
+}
+
+.buscador {
+	padding-top: 30px;
+}
+
+.buscador input {
+	color: #9A9A9A;
+	width: 200px;
+}
+
+
+
+/* Section artículos */
+
+.label {
+	background-color: grey;
+	border-radius: 0px;
+}
+
+.articulo {
+	margin: 10px 0;
+	color: black;
+}
+
+.publicado {
+	padding-top: 10px;
+}
+
+p.publicado {
+	font-size: 12px;
+	color: #9A9A9A;
+}
+
+.publicado b {
+	color: black;
+}
+
+p.lead {
+	font-size: 14px;
+	color: #9A9A9A;
+}
+
+.glyphicon {
+	float: left;
+	margin-right: 10px;
+}
+
+
+hr {
+	color: grey;
+	background-color: grey;
+	border: 1px solid grey;
+}
+
+.webzone {
+	background-color: black;
+}
+
+
+/* Video y agenda */
+
+.video {
+	background-color: #D7D7D7;
+	color: #9A9A9A;
+	width: 100%;
+	height: 100%;
+}
 
 div.fecha {
 	width: 80px;
@@ -13,3 +98,7 @@ div.fecha {
 	background-color: silver;
 	white-space: pre-line;
 }
+
+/*  */
+
+/* Footer */
