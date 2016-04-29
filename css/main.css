@@ -1,2 +1,15 @@
 /* Header */
 
+p.lead {
+	font-size: 14px;
+}
+
+
+div.fecha {
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	font-size: 20px;
+	background-color: silver;
+	white-space: pre-line;
+}
