@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Bootstrap: Grid System</title>
+	<title>Cineramas</title>
+  <link rel="icon" type="image/png" href="img/icono-del-cine-42047.png" />
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -18,18 +19,18 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-sm-4 col-xs-5">
-          <h1>Site name</h1>
+          <h1><span class="glyphicon glyphicon-film"></span>Cineramas</h1>
         </div>
         <div class="col-md-5 col-sm-5 text-right col-xs-7">
           <nav class="head">
             <ul class="list-inline links-top">
               <li>
                 <i class="glyphicon glyphicon-home"></i> 
-                <a href="#">Noticias</a>
+                <a href="#" class="nav-top">Noticias</a>
               </li>
               <li>
                 <i class="glyphicon glyphicon-home"></i> 
-                <a href="#">Enlaces RSS</a>
+                <a href="#" class="nav-top">Enlaces RSS</a>
               </li>
             </ul>
           </nav>
@@ -49,22 +50,22 @@
           <nav class="menu">
             <ul class="nav nav-tabs">
               <li role="presentation">
-                <a href="#">Bienvenido</a>
+                <a href="#" class="nav-top">Estrenos</a>
               </li>
               <li role="presentation">
-                <a href="#">Actualidades</a>
+                <a href="#" class="nav-top">Noticias</a>
               </li>
               <li role="presentation">
-                <a href="#">En directo</a>
+                <a href="#" class="nav-top">Reseñas</a>
               </li>
               <li role="presentation">
-                <a href="#">Reporte financiero</a>
+                <a href="#" class="nav-top">Cartelera</a>
               </li>
               <li role="presentation">
-                <a href="#">Nuestra oferta</a>
+                <a href="#" class="nav-top">Backstage</a>
               </li>
               <li role="presentation">
-                <a href="#">De nosotros a usted</a>
+                <a href="#" class="nav-top">Galeria</a>
               </li>
             </ul>
           </nav>
@@ -88,12 +89,12 @@
            otro elemento que se pueda ocultar al minimizar la barra -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Bienvenido</a></li>
-                <li><a href="#">Actualidades</a></li>
-                <li><a href="#">En directo</a></li>
-                <li><a href="#">Reporte Financiero</a></li>
-                <li><a href="#">Nuestra oferta</a></li>
-                <li><a href="#">De nosotros a usted</a></li>
+                <li class="active"><a href="#">Estrenos</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Reseñas</a></li>
+                <li><a href="#">Cartelera</a></li>
+                <li><a href="#">Backstage</a></li>
+                <li><a href="#">Galeria</a></li>
               </ul>
             </div>
             <!-- FIN MENU XS -->
@@ -107,10 +108,10 @@
       <div class="row">
         <div class="col-md-6 col-sm-8 col-xs-12">
           <div class="articulo">
-            <h3><span class="label label-default">Historia destacada</span></h3>
+            <h3><span class="label label-default">Estreno destacado</span></h3>
             <p class="publicado"><b>Artículo | </b>publicado el 09/10/15</p>
-            <h4><b>Lorem ipsum dolor sit amet</b></h4>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum non a autem quod dignissimos odit sit error. Enim suscipit itaque vero veniam, laudantium eius incidunt ab neque. Sapiente sit, similique?</p>
+            <h4><b>Capitán América - Guerra Civil</b></h4>
+            <p class="lead">El estreno más esperado del Universo Marvel ya llega a los cines Chilenos. Tú ya escogiste tu bando? Team Cap o Team Iron Man? Revisa el trailer y adelantos (SIN SPOILERS)</p>
             <ul class="list-inline">
               <li>
                 <div class="icon-bookmark">
@@ -126,10 +127,10 @@
           </div>
           <hr>
           <div class="articulo">
-            <h4><span class="label label-default webzone">Webzone</span></h4>
-            <p class="publicado"><b>Preguntas | </b>publicado el 09/10/15</p>
-            <h4><b>Lorem ipsum dolor sit amet</b></h4>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum non a autem quod dignissimos odit sit error. Enim suscipit itaque vero veniam, laudantium eius incidunt ab neque. Sapiente sit, similique?</p>
+            <h4><span class="label label-default webzone">Artículo</span></h4>
+            <p class="publicado"><b>Artículo | </b>publicado el 09/10/15</p>
+            <h4><b>Libros y películas</b></h4>
+            <p class="lead">Clásicos en papel y en la pantalla grande. Grandes adaptaciones y sagas inolvidables. Y algunos fracasos, descúbrelos todos en este artículo.</p>
             <ul class="list-inline">
               <li>
                 <div class="icon-bookmark">
@@ -145,13 +146,11 @@
           </div>
           <hr>
           <div class="articulo">
-            <p class="publicado"><b>Artículo | </b>publicado el 09/10/15</p>
-            <h4><b>Lorem ipsum et suspira nostres</b></h4>
+            <p class="publicado"><b>Noticias | </b>publicado el 09/10/15</p>
+            <h4><b>Adelantos de Suicide Squad</b></h4>
             <div class="foto">
-              FOTO
-              <img src="..." class="img-responsive" alt="Responsive image">
             </div> 
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum non a autem quod dignissimos odit sit error. Enim suscipit itaque vero veniam, laudantium eius incidunt ab neque. Sapiente sit, similique?</p>
+            <p class="lead">La aventura de la pandilla de villanos (y desquiciados) de DC Comics, llegará pronto a los cines, y cada día nos regalan una adelanto en su instagram. Descubre los últimos adelantos!</p>
             <ul class="list-inline">
               <li>
                 <div class="icon-bookmark">
@@ -167,8 +166,9 @@
           </div>
           <hr>
           <div class="articulo">
-            <h4><b>Lorem ipsum et suspira nostres</b></h4>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum non a autem quod dignissimos odit sit error. Enim suscipit itaque vero veniam, laudantium eius incidunt ab neque. Sapiente sit, similique?</p>
+            <p class="publicado"><b>Noticias | </b>publicado el 09/10/15</p>
+            <h4><b>Ghostbusters 2016</b></h4>
+            <p class="lead">El 15 de Julio podremos ver en los cines esta versión femenina de los cazafantasmas. Expectativas y análisis de la trama.</p>
             <ul class="list-inline">
               <li>
                 <div class="icon-bookmark">
@@ -187,11 +187,11 @@
         <div class="col-md-4 col-sm-4 col-xs-12">
            <aside>
             <div class="video">
-              <h3><span class="label label-default">Historia destacada</span></h3>
+              <h3><span class="label label-default">Trailer</span></h3>
               <div class="video-preview">
-                <img src="http://www.mobiletechaddicts.com/blogs/media/wp-content/uploads/2008/08/video1821454ef026.jpg" alt="">
+                <iframe src="https://www.youtube.com/embed/EFnx9MSPUIk" frameborder="0" allowfullscreen></iframe>
               </div>
-              <h4><b>Claire Dupond</b></h4>
+              <h4><b>Capitán América - Guerra Civil</b></h4>
               <p class="lead-video">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum non a autem quod dignissimos odit sit error. Enim suscipit itaque vero veniam, laudantium eius incidunt ab neque. Sapiente sit, similique?</p>
               <ul class="list-inline">
                 <li>
@@ -204,38 +204,39 @@
             </div>
             <!-- AGENDA -->
             <div class="agenda">
-              <h3><span class="label label-default agenda1">Agenda</span></h3>
+              <h3><span class="label label-default agenda1">Proximamente</span></h3>
               <div class="fechas">
                 <div class="fecha1">
                   <div class="fecha">
-                  23
-                  Enero
+                  03
+                   Junio
                   </div>
-                  <h4><b>Lorem ipsum et diligat</b></h4>
+                  <h4><b>Tortujas Ninja</b></h4>
                   <p class="lead-agenda">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   De 23 a 28 Diciembre 2015</p>
                 </div>
                 <div class="fecha2">
                   <div class="fecha">
-                  23
-                  Enero
+                  27
+                  Mayo
                   </div>
-                  <h4><b>Lorem ipsum et diligat</b></h4>
+                  <h4><b>X-Men Apocalipsis</b></h4>
                   <p class="lead-agenda">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     De 23 a 28 Diciembre 2015</p>
                 </div>
                 <div class="fecha3">
                   <div class="fecha">
-                  23
-                  Enero
+                  19
+                  Agosto
                   </div>
-                  <h4><b>Lorem ipsum et diligat</b></h4>
+                  <h4><b>Suicide Squad</b></h4>
                   <p class="lead-agenda">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     De 23 a 28 Diciembre 2015</p>
                 </div>
                 <div class="fecha4">
-                  <div class="fecha">23 Enero</div>
-                  <h4><b>Lorem ipsum et diligat</b></h4>
+                  <div class="fecha">04
+                  Novie.</div>
+                  <h4><b>Doctor Extraño</b></h4>
                   <p class="lead-agenda">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     De 23 a 28 Diciembre 2015</p>
                 </div>
@@ -257,15 +258,15 @@
         <!-- LATERAL -->
         <div class="col-md-2 hidden-sm hidden-xs">
           <div class="info-lateral">
-            <h4><b>Más información</b></h4>
+            <h4><b>Más información Cine</b></h4>
             <ul>
-              <li><a href="#">Finanzas y fiscalización</a></li>
-              <li><a href="#">Inversión y equipos</a></li>
-              <li><a href="#">Medio ambiente</a></li>
-              <li><a href="#">Habitat / Urbanismo</a></li>
-              <li><a href="#">Sanidad</a></li>
-              <li><a href="#">Social / Servicios</a></li>
-              <li><a href="#">Transporte</a></li>
+              <li><a href="#">Clásico</a></li>
+              <li><a href="#">Aventura</a></li>
+              <li><a href="#">Ciencia Ficción</a></li>
+              <li><a href="#">SuperHeroes</a></li>
+              <li><a href="#">Documentales</a></li>
+              <li><a href="#">Animados</a></li>
+              <li><a href="#">Emergente</a></li>
             </ul>
           </div>
           <hr>
@@ -298,13 +299,14 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3 col-sm-3 col-xs-6">
-          <h5><b>Rubros</b></h5>
+          <h5><b>Menu</b></h5>
           <ul>
-            <li><a href="#">Actualidades</a></li>
-            <li><a href="#">En directo</a></li>
-            <li><a href="#">Reporte financiero</a></li>
-            <li><a href="#">Nuestra oferta</a></li>
-            <li><a href="#">De Nosotros a ustedes</a></li>
+            <li><a href="#">Estrenos</a></li>
+            <li><a href="#">Noticias</a></li>
+            <li><a href="#">Reseñas</a></li>
+            <li><a href="#">Cartelera</a></li>
+            <li><a href="#">Backstage</a></li>
+            <li><a href="#">Galeria</a></li>
           </ul>
         </div>
         <div class="col-md-2 col-sm-3 col-xs-6">
@@ -316,15 +318,15 @@
           </ul>
         </div>
         <div class="col-md-3 hidden-sm hidden-xs">
-          <h5><b>Expertise</b></h5>
+          <h5><b>Cine</b></h5>
           <ul>
-            <li><a href="#">Finanzas y fiscalización</a></li>
-            <li><a href="#">Investigación y equipos</a></li>
-            <li><a href="#">Media ambiente</a></li>
-            <li><a href="#">Habitat / Urbanismo</a></li>
-            <li><a href="#">Sanidad</a></li>
-            <li><a href="#">Social / Servicios</a></li>
-            <li><a href="#">Transporte</a></li>
+            <li><a href="#">Clásico</a></li>
+            <li><a href="#">Aventura</a></li>
+            <li><a href="#">Ciencia Ficción</a></li>
+            <li><a href="#">SuperHeroes</a></li>
+            <li><a href="#">Documentales</a></li>
+            <li><a href="#">Animados</a></li>
+            <li><a href="#">Emergente</a></li>
           </ul>
         </div>
         <div class="col-md-2 col-sm-3 col-xs-6">

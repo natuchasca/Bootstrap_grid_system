@@ -1,17 +1,36 @@
+/* Colores
+Verde: 98CC2B;
+negro: 0F1404;
+*/
+
+body {
+	background-color: #F0EFE9;
+}
+
 /* Header */
 
 header {
 	padding-top: 10px;
+	background-color: #0F1404;
+	color: white;
 }
 
-.menu {
-	background-color: #BEBEBE;
-	padding-top: 40px;
+.menu-top {
+	background-color: #0F1404;
+	width: 100%;
+	color: white;
+	padding-top: 10px;
 	padding-left: 10px;
+	padding-bottom: 10px;
+	text-align: center;
 }
 
 
-a {
+a.nav-top {
+	color: white;
+}
+
+li a {
 	color: black;
 }
 
@@ -23,6 +42,20 @@ a {
 	margin-left: 20px;
 }
 
+a.nav-top:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #98CC2B;
+  transition: 0.4s;
+}
+
+a:hover:after {
+  width: 100%;
+}
+
 .buscador {
 	padding-top: 30px;
 }
@@ -30,6 +63,16 @@ a {
 .buscador input {
 	color: #9A9A9A;
 	width: 150px;
+}
+
+button {
+	background-color: #98CC2B;
+	border: none;
+}
+
+button:hover {
+	background-color: grey;
+	color: #98CC2B;
 }
 
 
@@ -42,7 +85,7 @@ section {
 
 
 .label {
-	background-color: grey;
+	background-color: #98CC2B;
 	border-radius: 0px;
 }
 
@@ -99,7 +142,8 @@ hr {
 .foto {
 	width: 100%;
 	height: 200px;
-	background-color: #D7D7D7;
+	background-image: url("https://i.ytimg.com/vi/CmRih_VtVAs/maxresdefault.jpg");
+	background-size: 100%;
 	color: black;
 	padding: 100px;
 	margin-bottom: 10px;
@@ -118,7 +162,7 @@ hr {
 	margin-bottom: 0px;
 }
 
-.video-preview img {
+.video-preview iframe {
 	width: 100%;
 	height: 100%;
 	margin-top: 10px;
@@ -237,6 +281,10 @@ hr.big {
 /* ALL UL */
 
 ul li {
-	list-style-type: square;
+	list-style-image: url("../img/Star.png");
 	font-weight: bold;
+}
+
+a:hover {
+	color: #98CC2B;
 }
