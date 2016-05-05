@@ -237,6 +237,6 @@ hr.big {
 /* ALL UL */
 
 ul li {
-	list-style-type: square;
+	list-style-image: url(../img/bookmark-icon-10x13.png);
 	font-weight: bold;
 }
